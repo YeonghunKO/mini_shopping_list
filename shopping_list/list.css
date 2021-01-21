@@ -1,0 +1,37 @@
+.un_list {
+  background-color: var(--listBackground-color);
+  height: 70vh;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  padding: 1vmin 4vmin;
+  font-size: x-large;
+  margin: 0;
+  overflow-y: scroll;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1vmin;
+  align-items: center;
+}
+
+.delete_btn {
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 4vmin;
+  transition: all 300ms ease-in;
+}
+
+.delete_btn:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  color: red;
+}
+
+.list_form {
+  display: flex;
+  flex-direction: column;
+}
